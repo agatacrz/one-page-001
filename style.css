@@ -2,3 +2,47 @@
 
 /** font-family: 'Raleway', sans-serif;
 **/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    padding: 45px;
+    margin: 25px;
+}
+
+div .menu-topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+div .menu-opt:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    margin-right: 50px;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+#button-top {
+    margin-left: 500px;
+    font-size: 0.8em;
+    font-weight: 600;
+    background: black;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 8px;
+}
+
+.menu-topo a {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
