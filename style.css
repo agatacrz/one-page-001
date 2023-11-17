@@ -30,7 +30,7 @@ div .menu-opt:hover {
 }
 
 #button-top {
-    margin-left: 500px;
+    margin-left: 400px;
     font-size: 0.8em;
     font-weight: 600;
     background: black;
@@ -45,4 +45,73 @@ div .menu-opt:hover {
     margin-right: 25px;
     font-size: 0.9em;
     font-weight: 500;
+}
+
+.cont-principal {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div .sec-textos {
+    width: 500px;
+}
+
+div .sec-textos h1 {
+    font-size: 4em;
+    font-weight: bolder;
+
+}
+
+div .sec-textos p {
+    line-height: 1.5em;
+    margin-top: -35px;
+    margin-bottom: 40px;
+    font-size: 0.9em;
+    width: 380px;
+    font-weight: 700;
+}
+
+div input {
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: #eeeeee;
+    margin-right: 10px;
+}
+
+div button {
+    background-color: rgb(53, 182, 53);
+    color: white;
+    font-size: 0.9em;
+    font-weight: 600;
+    border: none;
+    padding: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div section .footer {
+    margin-top: 60px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #8f8f8f;
+}
+
+div section .imgs-group {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    width: 300px;
+}
+
+div section .imgs-group img {
+    width: 20px;
+}
+
+section img {
+    padding-left: 80px;
+    padding-top: 40px;
 }
